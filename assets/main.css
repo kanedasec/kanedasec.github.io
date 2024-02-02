@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffff00;
+  color: #ffdd57;
 }
 
 a:hover,
@@ -61,7 +61,7 @@ blockquote {
 }
 
 hr {
-  color: #ddd;
+  color: ##ffdd57;
 }
 
 table {
@@ -70,7 +70,7 @@ table {
 
 td,
 th {
-  border: 1px solid #ddd;
+  border: 1px solid #ffdd57;
   padding: 8px;
 }
 
@@ -99,11 +99,11 @@ footer span {
 }
 
 footer .pure-menu-link {
-  color: #ffff00;
+  color: #ffdd57;
 }
 
 footer .pure-menu-link:hover {
-  color: #ffff00;
+  color: #ffdd57;
   background-color: #000000;
   text-decoration: none;
 }
@@ -120,7 +120,7 @@ footer .pure-menu-link:hover {
 
 .sidebar {
   background: #05172f;
-  color: #ffff00;
+  color: #ffdd57;
 }
 
 .sidebar-info {
@@ -149,12 +149,12 @@ footer .pure-menu-link:hover {
 }
 
 .brand-title a {
-  color: #ffff00;
+  color: #ffdd57;
 }
 
 .brand-tagline {
   font-weight: 300;
-  color: #ddd;
+  color: #ffdd57;
   font-size: 18px;
 }
 
@@ -189,7 +189,7 @@ footer .pure-menu-link:hover {
 
 .content-subhead {
   text-transform: uppercase;
-  color: #ffff00;
+  color: #ffdd57;
   border-bottom: 1px solid #eee;
   padding: 0.4em 0;
   font-size: 18px;
@@ -237,7 +237,7 @@ footer .pure-menu-link:hover {
 
 .post-title {
   font-size: 2em;
-  color: #ffff00;
+  color: #ffdd57;
   margin-bottom: 0.2em;
 }
 
@@ -248,13 +248,13 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: #ffff00;
+  color: #ffdd57;
   line-height: 1.8em;
 }
 
 .post-meta {
   font-family: "Open Sans", sans-serif;
-  color: #ffff00;
+  color: #ffdd57;
   margin: 0;
 }
 
@@ -518,7 +518,7 @@ footer ul {
   width: 94%;
   margin: 10px 0;
   padding: 5px;
-  border: 1px #ccc solid;
+  border: 1px #ffdd57 solid;
   border-radius: 8px;
 }
 
