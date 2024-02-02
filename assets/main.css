@@ -144,7 +144,7 @@ footer .pure-menu-link:hover {
 }
 
 .brand-title a {
-  color: white;
+  color: #ffff00;
 }
 
 .brand-tagline {
@@ -184,7 +184,7 @@ footer .pure-menu-link:hover {
 
 .content-subhead {
   text-transform: uppercase;
-  color: #333;
+  color: #ffff00;
   border-bottom: 1px solid #eee;
   padding: 0.4em 0;
   font-size: 18px;
@@ -232,7 +232,7 @@ footer .pure-menu-link:hover {
 
 .post-title {
   font-size: 2em;
-  color: #222;
+  color: #ffff00;
   margin-bottom: 0.2em;
 }
 
@@ -243,19 +243,19 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: black;
+  color: #ffff00;
   line-height: 1.8em;
 }
 
 .post-meta {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #ffff00;
   margin: 0;
 }
 
 .post-meta a {
   font-weight: bold;
-  color: #376a8c;
+  color: #c90076;
 }
 
 .post-category {
@@ -283,7 +283,7 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: black;
+  color: #fff000;
   line-height: 1.8em;
   margin-top: -15px;
 }
@@ -296,7 +296,7 @@ footer .pure-menu-link:hover {
 
 .archive-links a,
 .tags a {
-  color: #376a8c;
+  color: #c90076;
 }
 
 /* AUTHOR */
@@ -405,11 +405,11 @@ footer .pure-menu-link:hover {
   text-decoration: underline;
   font-size: 48px;
   margin-bottom: 0px;
-  color: #222;
+  color: #fff000;
 }
 
 .jekyll-header:hover {
-  color: #6f1f91;
+  color: #c90076;
 }
 
 .content {
@@ -474,27 +474,27 @@ footer ul {
 }
 
 .about i {
-  color: #333;
+  color: #fff000;
 }
 
 .hashtags i {
-  color: #6f1f91;
+  color: #c90076;
 }
 
 .categories i {
-  color: #3878a0;
+  color: #c90076;
 }
 
 .archive i {
-  color: #56712d;
+  color: #c90076;
 }
 
 .rss i {
-  color: #cfa531;
+  color: #c90076;
 }
 
 .donate i {
-  color: #da6064;
+  color: #c90076;
 }
 
 /* SEARCH */
