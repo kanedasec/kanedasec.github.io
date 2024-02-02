@@ -17,6 +17,11 @@ li {
   font-family: "Lora", serif;
 }
 
+body {
+    background-color: #000;
+    color: #ffdd57;
+}
+
 a {
   text-decoration: none;
   color: #ffff00;
@@ -168,7 +173,7 @@ footer .pure-menu-link:hover {
 .nav-item a {
   background: transparent;
   border: 2px solid rgb(195, 176, 219);
-  color: #fff000;
+  color: #ffdd57;
   margin-top: 1em;
   margin-right: 5px;
   letter-spacing: 0.05em;
@@ -283,7 +288,7 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: #fff000;
+  color: #ffdd57;
   line-height: 1.8em;
   margin-top: -15px;
 }
@@ -405,7 +410,7 @@ footer .pure-menu-link:hover {
   text-decoration: underline;
   font-size: 48px;
   margin-bottom: 0px;
-  color: #fff000;
+  color: #ffdd57;
 }
 
 .jekyll-header:hover {
@@ -450,7 +455,7 @@ footer ul {
   border-right: 1px grey solid;
   margin-left: -4px;
   text-decoration: none;
-  color: #fff000;
+  color: #ffdd57;
   margin-top: 10px;
 }
 
@@ -460,7 +465,7 @@ footer ul {
 
 .menu a:hover {
   background-color: #eee;
-  color: #fff000;
+  color: #ffdd57;
 }
 
 .about,
@@ -474,7 +479,7 @@ footer ul {
 }
 
 .about i {
-  color: #fff000;
+  color: #ffdd57;
 }
 
 .hashtags i {
