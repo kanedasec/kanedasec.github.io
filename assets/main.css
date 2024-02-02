@@ -19,7 +19,7 @@ li {
 
 a {
   text-decoration: none;
-  color: rgb(61, 146, 201);
+  color: #ffff00;
 }
 
 a:hover,
@@ -70,7 +70,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #000000;
 }
 
 tr:hover {
@@ -94,12 +94,12 @@ footer span {
 }
 
 footer .pure-menu-link {
-  color: #444;
+  color: #ffff00;
 }
 
 footer .pure-menu-link:hover {
-  color: #111;
-  background-color: #fff;
+  color: #ffff00;
+  background-color: #000000;
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ footer .pure-menu-link:hover {
 
 .sidebar {
   background: #05172f;
-  color: #fff;
+  color: #ffff00;
 }
 
 .sidebar-info {
