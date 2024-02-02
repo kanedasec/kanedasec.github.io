@@ -19,12 +19,12 @@ li {
 
 body {
     background-color: #000;
-    color: #ffdd57;
+    color: #fff000;
 }
 
 a {
   text-decoration: none;
-  color: #ffdd57;
+  color: #fff000;
 }
 
 a:hover,
@@ -61,7 +61,7 @@ blockquote {
 }
 
 hr {
-  color: ##ffdd57;
+  color: ##fff000;
 }
 
 table {
@@ -70,7 +70,7 @@ table {
 
 td,
 th {
-  border: 1px solid #ffdd57;
+  border: 1px solid #fff000;
   padding: 8px;
 }
 
@@ -99,11 +99,11 @@ footer span {
 }
 
 footer .pure-menu-link {
-  color: #ffdd57;
+  color: #fff000;
 }
 
 footer .pure-menu-link:hover {
-  color: #ffdd57;
+  color: #fff000;
   background-color: #000000;
   text-decoration: none;
 }
@@ -120,7 +120,7 @@ footer .pure-menu-link:hover {
 
 .sidebar {
   background: #000;
-  color: #ffdd57;
+  color: #fff000;
 }
 
 .sidebar-info {
@@ -149,12 +149,12 @@ footer .pure-menu-link:hover {
 }
 
 .brand-title a {
-  color: #ffdd57;
+  color: #fff000;
 }
 
 .brand-tagline {
   font-weight: 300;
-  color: #ffdd57;
+  color: #fff000;
   font-size: 18px;
 }
 
@@ -173,7 +173,7 @@ footer .pure-menu-link:hover {
 .nav-item a {
   background: transparent;
   border: 2px solid rgb(195, 176, 219);
-  color: #ffdd57;
+  color: #fff000;
   margin-top: 1em;
   margin-right: 5px;
   letter-spacing: 0.05em;
@@ -189,8 +189,8 @@ footer .pure-menu-link:hover {
 
 .content-subhead {
   text-transform: uppercase;
-  color: #ffdd57;
-  border-bottom: 1px solid #eee;
+  color: #fff000;
+  border-bottom: 1px solid ##fff000;
   padding: 0.4em 0;
   font-size: 18px;
   font-weight: 400;
@@ -237,7 +237,7 @@ footer .pure-menu-link:hover {
 
 .post-title {
   font-size: 2em;
-  color: #ffdd57;
+  color: #fff000;
   margin-bottom: 0.2em;
 }
 
@@ -248,13 +248,13 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: #ffdd57;
+  color: #fff000;
   line-height: 1.8em;
 }
 
 .post-meta {
   font-family: "Open Sans", sans-serif;
-  color: #ffdd57;
+  color: #fff000;
   margin: 0;
 }
 
@@ -288,7 +288,7 @@ footer .pure-menu-link:hover {
 }
 
 .post-description {
-  color: #ffdd57;
+  color: #fff000;
   line-height: 1.8em;
   margin-top: -15px;
 }
@@ -410,7 +410,7 @@ footer .pure-menu-link:hover {
   text-decoration: underline;
   font-size: 48px;
   margin-bottom: 0px;
-  color: #ffdd57;
+  color: #fff000;
 }
 
 .jekyll-header:hover {
@@ -455,7 +455,7 @@ footer ul {
   border-right: 1px grey solid;
   margin-left: -4px;
   text-decoration: none;
-  color: #ffdd57;
+  color: #fff000;
   margin-top: 10px;
 }
 
@@ -464,8 +464,8 @@ footer ul {
 }
 
 .menu a:hover {
-  background-color: #eee;
-  color: #ffdd57;
+  background-color: ##c90076;
+  color: #fff000;
 }
 
 .about,
@@ -479,7 +479,7 @@ footer ul {
 }
 
 .about i {
-  color: #ffdd57;
+  color: #fff000;
 }
 
 .hashtags i {
@@ -518,7 +518,7 @@ footer ul {
   width: 94%;
   margin: 10px 0;
   padding: 5px;
-  border: 1px #ffdd57 solid;
+  border: 1px #fff000 solid;
   border-radius: 8px;
 }
 
