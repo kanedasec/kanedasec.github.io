@@ -39,7 +39,7 @@ disqus: purelog-jekyll
 
 author: Kanedasec
 author_bio: >-
-  Cybersecurity and Hacking enthusiast. Used to be a criminal defense attorney, but he preferred to make a living breaking tech.
+  Cybersecurity and Hacking enthusiast. Used to be a criminal defense attorney, but preferred to make a living breaking tech.
 author_pic: assets/profile.jpeg
 paginate: 4
 paginate_path: "/:num/"
