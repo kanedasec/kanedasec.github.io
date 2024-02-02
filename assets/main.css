@@ -450,7 +450,7 @@ footer ul {
   border-right: 1px grey solid;
   margin-left: -4px;
   text-decoration: none;
-  color: #333;
+  color: #fff000;
   margin-top: 10px;
 }
 
@@ -460,7 +460,7 @@ footer ul {
 
 .menu a:hover {
   background-color: #eee;
-  color: #000;
+  color: #fff000;
 }
 
 .about,
