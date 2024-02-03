@@ -10,4 +10,4 @@ category: Example Posts
 ---
 
 TESTE POST
-Iḿ testing this post ![My test image](/assets/profile.jpeg)
+Iḿ testing this post ![My test image](/assets/profile.png)
