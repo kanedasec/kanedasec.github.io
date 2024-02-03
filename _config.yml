@@ -76,7 +76,7 @@ collections:
   pages:
     output: true
     permalink: /:title
-  notes:
+  posts:
     output: true
     permalink: /posts/:title
   journals:
