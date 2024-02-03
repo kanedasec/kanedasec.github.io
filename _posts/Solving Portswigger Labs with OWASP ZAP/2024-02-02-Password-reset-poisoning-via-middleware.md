@@ -36,7 +36,7 @@ The e-mail on the exploit server with the temporary token in the url
 
 This means we can change the http methods to look for errors, try injection attacks, and try host header manipulation. After testing these vectors, we understand that the application only allow GET and POST methods, and neither the parameter username nor the cookie session is vulnerable to injection attacks. With host header manipulation we found that the application allows the X-Forwarded-Host header. 
 
-The **`X-Forwarded-Host`** (XFH) header is a de-facto standard header for identifying the original host requested by the client in the Host HTTP request header. As the the exploit server /log system will receive a log entry, we will confirm that the application is in fact accepting the X-Forwarded-Host header, we can confirm it to be vulnerable.  
+The **`X-Forwarded-Host`** (XFH) header is a de-facto standard header for identifying the original host requested by the client in the Host HTTP request header. As the the exploit server /log system will receive a log entry, we will confirm that the application is in fact accepting the X-Forwarded-Host header, therefore it is vulnerable.  
   
 ![4-3.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-reset-poisoning-via-middleware/4-3.png)  
 A diagram I drew to explain the attack  
