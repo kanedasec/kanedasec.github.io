@@ -3,11 +3,7 @@ layout: default
 ---
 {{ content }}
 
-{% if site.paginate %}
-    {% assign posts = paginator.posts %}
-{% else %}
-    {% assign posts = site.posts %}
-{% endif %}
+{% assign posts = site.posts %}
 
 <div class="posts">
     <h2 class="content-subhead">Recent Posts</h2>
