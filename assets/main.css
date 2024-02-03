@@ -172,7 +172,7 @@ footer .pure-menu-link:hover {
 
 .nav-item a {
   background: transparent;
-  border: 2px solid rgb(195, 176, 219);
+  border: 2px solid #fff000;
   color: #fff000;
   margin-top: 1em;
   margin-right: 5px;
@@ -183,7 +183,7 @@ footer .pure-menu-link:hover {
 
 .nav-item a:hover,
 .nav-item a:focus {
-  border: 2px solid rgb(61, 70, 201);
+  border: 2px solid #c90076;
   text-decoration: none;
 }
 
