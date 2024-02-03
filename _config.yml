@@ -21,7 +21,7 @@
 
 title: "Kanedasec Cyber Journal"
 description: >- # this means to ignore newlines until "baseurl:"
-  A  Logbook with posts and journal entries about cyberstuff and hacking
+  A  Logbook with entries about cyberstuff and hacking
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kanedasec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: kanedasec/kanedasec.github.io
@@ -61,7 +61,7 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-      author: Brennan K. Brown
+      author: Kanedasec
       avatar: assets/profile.jpeg
   - scope:
       path: ""
