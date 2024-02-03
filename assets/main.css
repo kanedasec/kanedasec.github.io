@@ -302,6 +302,7 @@ footer .pure-menu-link:hover {
 .archive-links a,
 .tags a {
   color: #c90076;
+  text-decoration: none;
 }
 
 /* AUTHOR */
@@ -492,6 +493,7 @@ footer ul {
 
 .archive i {
   color: #c90076;
+  text-decoration: none;
 }
 
 .rss i {
