@@ -9,5 +9,5 @@ For today, I'd like to leave you with a manga recommendation: "Destroy All of Hu
 [**Read here**](https://mangadex.org/title/d3390cac-4827-436b-a9a2-4f317a155117/subete-no-jinrui-wo-hakai-suru-sorera-wa-saisei-dekinai)
 
 
-![manga](/assets/img/journal/Destroy-all-humanity-It-cant-be-regenerated.jpeg)
+![<span style="color:#c90076;">manga</span>](/assets/img/journal/Destroy-all-humanity-It-cant-be-regenerated.jpeg)
 
