@@ -6,8 +6,6 @@ My day job has begun to impact my learning on offensive security, so I've decide
 
 For today, I'd like to leave you with a manga recommendation: "Destroy All of Humanity. It Can't Be Regenerated" by Takuma Yokota and Katsura Ise. It's a charming slice-of-life, coming of age, with an innocent romance story, all set against the backdrop of the world's most renowned card game, Magic: The Gathering. 
 
-<span style="color:#c90076;">teste</span>
-
 [<span style="color:#c90076;">**Read here**</span>](https://mangadex.org/title/d3390cac-4827-436b-a9a2-4f317a155117/subete-no-jinrui-wo-hakai-suru-sorera-wa-saisei-dekinai)
 
 
