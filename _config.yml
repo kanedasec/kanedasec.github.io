@@ -28,7 +28,7 @@ repository: kanedasec/kanedasec.github.io
 twitter: kanedasec
 github: kanedasec
 
-header_image: assets/profile.jpeg
+header_image: assets/profile.png
 
 google_analytics:
 comments: true
@@ -37,7 +37,7 @@ disqus: purelog-jekyll
 author: Kanedasec
 author_bio: >-
   Cybersecurity and Hacking enthusiast. Used to be a criminal defense attorney, but preferred to make a living breaking tech.
-author_pic: assets/profile.jpeg
+author_pic: assets/profile.png
 paginate: 4
 paginate_path: "/:num/"
 
@@ -62,7 +62,7 @@ defaults:
     values:
       layout: "post"
       author: Kanedasec
-      avatar: assets/profile.jpeg
+      avatar: assets/profile.png
   - scope:
       path: ""
       type: journals
