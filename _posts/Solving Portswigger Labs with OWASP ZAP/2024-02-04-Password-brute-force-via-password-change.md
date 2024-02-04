@@ -27,7 +27,7 @@ Steps:
  
   
 ![5-1.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-1.png)  
-"Change password" in the html  
+"Change password" rendered in the html  
   
   
 ![5-2.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-2.png)  
