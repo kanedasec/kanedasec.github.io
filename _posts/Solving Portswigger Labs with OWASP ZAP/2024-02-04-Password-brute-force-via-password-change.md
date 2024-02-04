@@ -27,7 +27,7 @@ Steps:
  
   
 ![5-1.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-1.png)  
-"Change password" rendered in the html  
+"Change password" rendered in the browser  
   
   
 ![5-2.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-2.png)  
@@ -39,11 +39,11 @@ Now resending The POST request with the parameters sent with the "Change passwor
   
   
 ![5-4.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-4.png)  
-In Try 1, the response were 3,877 bytes long. In html, it looked like this. Notice the "New passwords do not match" error message.  
+In Try 1, the response were 3,877 bytes long. Rendered in Browser, it looked like this. Notice the "New passwords do not match" error message.  
   
   
 ![5-5.png](/assets/img/posts/Solving-Portswigger-Labs-with-OWASP-ZAP/Password-brute-force-via-password-change/5-5.png)  
-In Try 2, the response were 3,880 bytes long. In html, it looked like this. Notice the "Current password is incorrect". Bingo!  
+In Try 2, the response were 3,880 bytes long. Rendered in Browser, it looked like this. Notice the "Current password is incorrect". Bingo!  
   
   
 2) Through testing the functionality, it's clear that attempting to change the password with an incorrect current password and a mismatched set of new/confirmation passwords results in an error message indicating the current password is wrong. Typically, this type of error can be considered a security vulnerability because it potentially allows for credential guessing through brute force attacks.  
