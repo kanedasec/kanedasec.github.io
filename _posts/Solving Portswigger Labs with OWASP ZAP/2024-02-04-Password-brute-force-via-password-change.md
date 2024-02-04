@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Password brute-force via password change"
-date: 2024-02-02
+date: 2024-02-04
 author: Kanedasec
 category: Solving Portswigger Labs with OWASP ZAP
 ---
