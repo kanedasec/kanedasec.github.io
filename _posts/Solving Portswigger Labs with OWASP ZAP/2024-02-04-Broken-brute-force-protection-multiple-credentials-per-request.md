@@ -3,10 +3,10 @@ layout: post
 title: "Broken brute-force protection, multiple credentials per request"
 date: 2024-02-04
 author: Kanedasec
-category: Solving Portswigger Labs with OWASP ZAP
+category: Solving Portswigger Labs with ZAP
 ---
 
-Solving Portswigger Labs with OWASP ZAP: Broken brute-force protection, multiple credentials per request
+Solving Portswigger Labs with ZAP: Broken brute-force protection, multiple credentials per request
 ================================================================================
 
 
