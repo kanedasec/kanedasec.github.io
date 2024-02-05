@@ -3,10 +3,10 @@ layout: post
 title: "Password reset poisoning via middleware"
 date: 2024-02-02
 author: Kanedasec
-category: Solving Portswigger Labs with OWASP ZAP
+category: Solving Portswigger Labs with ZAP
 ---
 
-Solving Portswigger Labs with OWASP ZAP: Password reset poisoning via middleware
+Solving Portswigger Labs with ZAP: Password reset poisoning via middleware
 ================================================================================
 
 
