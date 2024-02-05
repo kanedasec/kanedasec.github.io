@@ -3,10 +3,10 @@ layout: post
 title: "Password brute-force via password change"
 date: 2024-02-04
 author: Kanedasec
-category: Solving Portswigger Labs with OWASP ZAP
+category: Solving Portswigger Labs with ZAP
 ---
 
-Solving Portswigger Labs with OWASP ZAP: Password brute-force via password change
+Solving Portswigger Labs with ZAP: Password brute-force via password change
 ================================================================================
 
 
