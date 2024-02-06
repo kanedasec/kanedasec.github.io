@@ -1,1 +1,1 @@
-!{welcome](/assets/kaneda.png] 
+![welcome](/assets/kaneda.png] 
