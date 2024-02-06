@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2FA bypass using a brute-force attack"
-date: 2024-02-02
+date: 2024-02-06
 author: Kanedasec
 category: Solving Portswigger Labs with ZAP
 ---
