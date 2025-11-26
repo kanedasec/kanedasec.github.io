@@ -9,6 +9,11 @@ layout: default
       {% if page.category %}
         <span class="post-category">{{ page.category }}</span>
       {% endif %}
+      {% if page.lang %}
+        <span class="post-language">
+          • {% if page.lang == 'pt' %}Portuguese 🇧🇷{% else %}English 🇺🇸{% endif %}
+        </span>
+      {% endif %}
     </p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.subtitle %}
@@ -28,7 +33,8 @@ layout: default
   </div>
 
   <footer class="post-footer">
-    <a href="{ '/posts/' | relative_url }" class="btn btn--ghost">
+    <a href="{{ '/posts/' | relative_url }}" class="btn btn--ghost">
+      {% if page.lang == 'pt' %}← Voltar para posts{% else %}← Back to posts{% endif %}
     </a>
   </footer>
 </article>

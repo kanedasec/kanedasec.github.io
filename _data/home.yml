@@ -1,7 +1,7 @@
 en:
   hero:
     kicker: "Senior Application Security Engineer"
-    title: "I help teams ship secure, resilient and observable software."
+    title: "I help teams ship secure software."
     subtitle: >
       Application Security and DevSecOps engineer focused on secure SDLC, threat modeling,
       security automation and governance of risks and controls in high-impact systems.
@@ -62,7 +62,7 @@ en:
 pt:
   hero:
     kicker: "Engenheiro Sênior de Segurança de Aplicações"
-    title: "Ajudo times a entregar software seguro, resiliente e observável."
+    title: "Ajudo times a entregar software seguro."
     subtitle: >
       Engenheiro de AppSec e DevSecOps focado em SSDLC, modelagem de ameaças, automação de
       segurança e governança de riscos e controles em sistemas de alto impacto.
