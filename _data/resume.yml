@@ -5,7 +5,7 @@ en:
   email: "vernon.acs@gmail.com"
   github: "kanedasec"
   linkedin: "vernon-simoes"
-  mock_pdf_url: "/assets/resume/vernon-simoes-resume-en.pdf"
+  mock_pdf_url: "/assets/resume/vernon-simoes-resume-pt.pdf"
 
   labels:
     download_pdf: "Download PDF"
