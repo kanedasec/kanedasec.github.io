@@ -1,7 +1,7 @@
 title: "Vernon Simões – AppSec & DevSecOps"
 description: "Application Security, Offensive/Defensive Security, and Technical Writing"
 baseurl: "" # GitHub Pages project site: "/repo-name", user site: ""
-url: "https://your-username.github.io" # update for SEO
+url: "https://vernon.github.io" # update for SEO
 
 # default language
 lang: "en"
@@ -17,7 +17,7 @@ theme: minima # we won't use its layouts, but it's safe and GitHub Pages–compa
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
- 
+
 # Collections/posts
 permalink: /posts/:title/
 
