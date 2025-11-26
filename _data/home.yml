@@ -1,0 +1,99 @@
+en:
+  hero:
+    kicker: "Application Security Engineer"
+    title: "I help teams ship secure, observable software."
+    subtitle: "Senior AppSec & DevSecOps engineer focused on building threat-aware architectures, secure SDLCs, and pragmatic tooling."
+
+  about:
+    title: "About"
+    body: >
+      I'm an application security engineer who lives at the intersection of code, threat modeling,
+      and developer experience. I like building guardrails, not gates — enabling teams to move fast
+      while keeping systems resilient and observable.
+
+  skills:
+    title: "Skills"
+    groups:
+      - name: "Application Security"
+        items:
+          - Threat modeling & design reviews
+          - Secure SDLC & security champions
+          - SAST, DAST, SCA, container security
+          - Security code reviews & hardening
+      - name: "DevSecOps"
+        items:
+          - CI/CD pipelines for security automation
+          - GitHub Actions, Bamboo, GitLab CI
+          - IaC security (Terraform, Kubernetes)
+          - Secrets management (Key Vault, Secrets Manager)
+      - name: "Offensive / Defensive"
+        items:
+          - Bug bounty & offensive tooling
+          - Web exploitation & CTFs
+          - WAF tuning & log analysis
+          - Detection engineering & monitoring
+
+  featured_projects:
+    title: "Featured Projects"
+    subtitle: "A few projects that reflect how I think about secure engineering."
+    view_all_label: "View all projects"
+    items:
+      - zeta-hunter
+      - fp-gui
+      - security-hub
+
+  contact:
+    title: "Contact"
+    body: >
+      Want to discuss an AppSec program, a weird vulnerability, or a new security tool idea?
+      Reach out via email or message me on LinkedIn.
+
+pt:
+  hero:
+    kicker: "Engenheiro de Segurança de Aplicações"
+    title: "Ajudo times a entregar software seguro e observável."
+    subtitle: "Engenheiro de AppSec & DevSecOps focado em arquiteturas orientadas a ameaças, SDLC seguro e automações pragmáticas."
+
+  about:
+    title: "Sobre"
+    body: >
+      Sou um engenheiro de segurança de aplicações que atua na interseção entre código,
+      modelagem de ameaças e experiência de desenvolvedor. Gosto de criar trilhos de segurança,
+      não barreiras — permitindo que times se movam rápido com sistemas resilientes e observáveis.
+
+  skills:
+    title: "Habilidades"
+    groups:
+      - name: "Segurança de Aplicações"
+        items:
+          - Modelagem de ameaças & análise de arquitetura
+          - SDLC seguro & security champions
+          - SAST, DAST, SCA, segurança de containers
+          - Code review seguro & hardening
+      - name: "DevSecOps"
+        items:
+          - Pipelines CI/CD com automação de segurança
+          - GitHub Actions, Bamboo, GitLab CI
+          - Segurança de IaC (Terraform, Kubernetes)
+          - Gestão de secrets (Key Vault, Secrets Manager)
+      - name: "Ofensiva / Defensiva"
+        items:
+          - Bug bounty & ferramentas ofensivas
+          - Exploração web & CTFs
+          - Tunagem de WAF & análise de logs
+          - Engenharia de detecção & monitoração
+
+  featured_projects:
+    title: "Projetos em Destaque"
+    subtitle: "Alguns projetos que refletem como penso sobre engenharia segura."
+    view_all_label: "Ver todos os projetos"
+    items:
+      - zeta-hunter
+      - fp-gui
+      - security-hub
+
+  contact:
+    title: "Contato"
+    body: >
+      Quer conversar sobre programa de AppSec, alguma vulnerabilidade estranha
+      ou uma ideia de ferramenta de segurança? Fale comigo por e-mail ou LinkedIn.

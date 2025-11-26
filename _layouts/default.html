@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" data-theme="dark">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="site-body">
+    <header class="site-header">
+      {% include navbar.html %}
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      {% include footer.html %}
+    </footer>
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  </body>
+</html>

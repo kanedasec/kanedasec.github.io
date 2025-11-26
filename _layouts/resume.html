@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% assign cv = site.data.resume[lang] %}
+
+<section class="section section--resume">
+  <div class="section__inner">
+    <header class="resume-header">
+      <div>
+        <h1 class="resume-name">{{ cv.name }}</h1>
+        <p class="resume-title">{{ cv.title }}</p>
+        <p class="resume-location">{{ cv.location }}</p>
+      </div>
+      <div class="resume-meta">
+        <ul class="resume-contact">
+          {% if cv.email %}<li><a href="mailto:{{ cv.email }}">{{ cv.email }}</a></li>{% endif %}
+          {% if cv.github %}<li><a href="https://github.com/{{ cv.github }}" target="_blank">github.com/{{ cv.github }}</a></li>{% endif %}
+          {% if cv.linkedin %}<li><a href="https://www.linkedin.com/in/{{ cv.linkedin }}" target="_blank">linkedin.com/in/{{ cv.linkedin }}</a></li>{% endif %}
+        </ul>
+        <a href="{{ cv.mock_pdf_url | default: '#' }}" class="btn btn--primary btn--sm">
+          {{ cv.labels.download_pdf }}
+        </a>
+      </div>
+    </header>
+
+    {% if cv.summary %}
+      <section class="resume-section">
+        <h2 class="resume-section__title">{{ cv.labels.summary }}</h2>
+        <p class="resume-section__body">{{ cv.summary }}</p>
+      </section>
+    {% endif %}
+
+    {% if cv.experience %}
+      <section class="resume-section">
+        <h2 class="resume-section__title">{{ cv.labels.experience }}</h2>
+        <div class="timeline">
+          {% for job in cv.experience %}
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <h3 class="timeline-item__title">{{ job.role }}</h3>
+                <span class="timeline-item__company">{{ job.company }}</span>
+                <span class="timeline-item__period">{{ job.period }}</span>
+                {% if job.location %}
+                  <span class="timeline-item__location">{{ job.location }}</span>
+                {% endif %}
+              </header>
+              {% if job.description %}
+                <p class="timeline-item__description">{{ job.description }}</p>
+              {% endif %}
+              {% if job.highlights %}
+                <ul class="timeline-item__list">
+                  {% for highlight in job.highlights %}
+                    <li>{{ highlight }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if cv.education %}
+      <section class="resume-section">
+        <h2 class="resume-section__title">{{ cv.labels.education }}</h2>
+        <div class="timeline">
+          {% for edu in cv.education %}
+            <article class="timeline-item">
+              <header class="timeline-item__header">
+                <h3 class="timeline-item__title">{{ edu.degree }}</h3>
+                <span class="timeline-item__company">{{ edu.school }}</span>
+                <span class="timeline-item__period">{{ edu.period }}</span>
+              </header>
+              {% if edu.details %}
+                <p class="timeline-item__description">{{ edu.details }}</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if cv.skills %}
+      <section class="resume-section">
+        <h2 class="resume-section__title">{{ cv.labels.skills }}</h2>
+        <div class="skills-grid">
+          {% for group in cv.skills %}
+            <article class="skill-card">
+              <h3 class="skill-card__title">{{ group.category }}</h3>
+              <ul class="skill-card__list">
+                {% for item in group.items %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    {% if cv.certifications %}
+      <section class="resume-section">
+        <h2 class="resume-section__title">{{ cv.labels.certifications }}</h2>
+        <ul class="resume-list">
+          {% for cert in cv.certifications %}
+            <li>
+              <strong>{{ cert.name }}</strong>
+              {% if cert.issuer %} – {{ cert.issuer }}{% endif %}
+              {% if cert.year %} ({{ cert.year }}){% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </div>
+</section>

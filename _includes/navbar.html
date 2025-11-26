@@ -1,0 +1,35 @@
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% if lang == 'pt' %}
+  {% assign lang_prefix = '/pt' %}
+{% else %}
+  {% assign lang_prefix = '' %}
+{% endif %}
+
+<nav class="nav">
+  <div class="nav__brand">
+    <a href="{{ lang_prefix | append: '/' | relative_url }}" class="nav__logo">λ AppSec</a>
+  </div>
+
+  <button class="nav__toggle" aria-label="Toggle navigation">☰</button>
+
+  <ul class="nav__links">
+    <li><a href="{{ lang_prefix | append: '/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Início{% else %}Home{% endif %}</a></li>
+    <li><a href="{{ lang_prefix | append: '/resume/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Currículo{% else %}Resume{% endif %}</a></li>
+    <li><a href="{{ lang_prefix | append: '/projects/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Projetos{% else %}Projects{% endif %}</a></li>
+    <li><a href="{{ lang_prefix | append: '/posts/' | relative_url }}" class="nav__link">Posts</a></li>
+  </ul>
+
+  <div class="nav__actions">
+    <button id="theme-toggle" class="nav__icon-btn" aria-label="Toggle theme">🌗</button>
+
+    <div class="nav__lang-switch">
+      {% if lang == 'en' %}
+        <span class="nav__lang nav__lang--active">EN</span>
+        <a href="{{ '/pt/' | relative_url }}" class="nav__lang">PT</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}" class="nav__lang">EN</a>
+        <span class="nav__lang nav__lang--active">PT</span>
+      {% endif %}
+    </div>
+  </div>
+</nav>

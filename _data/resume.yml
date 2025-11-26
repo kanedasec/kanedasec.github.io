@@ -1,0 +1,174 @@
+en:
+  name: "Vernon Simões"
+  title: "Senior Application Security / DevSecOps Engineer"
+  location: "São Paulo, Brazil"
+  email: "you@example.com"
+  github: "kanedasec"
+  linkedin: "vernon-simoes"
+  mock_pdf_url: "/assets/resume/vernon-simoes-resume.pdf"
+
+  labels:
+    download_pdf: "Download PDF (mock)"
+    summary: "Summary"
+    experience: "Experience"
+    education: "Education"
+    skills: "Skills"
+    certifications: "Certifications"
+
+  summary: >
+    Application security engineer with experience building secure SDLCs,
+    integrating security into CI/CD pipelines, and supporting product teams with
+    pragmatic, developer-friendly security guidance.
+
+  experience:
+    - role: "Senior Application Security Engineer"
+      company: "Large Financial Services Company"
+      location: "São Paulo, Brazil"
+      period: "2022 – Present"
+      description: >
+        Leading application security initiatives across multiple product teams,
+        with a focus on automation, education, and secure-by-design architectures.
+      highlights:
+        - Built AppSec guardrails into CI/CD (SAST, SCA, container security, IaC) across multiple squads.
+        - Designed and rolled out a security champions program integrated with existing agile rituals.
+        - Partnered with platform teams to standardize secrets management and key vault usage.
+
+    - role: "Application Security Engineer"
+      company: "Tech / Insurance Company"
+      location: "São Paulo, Brazil"
+      period: "2019 – 2022"
+      description: >
+        Embedded with engineering squads to design, review, and harden critical services.
+      highlights:
+        - Performed threat modeling and architecture reviews for high-risk applications.
+        - Ran internal CTFs and training sessions focused on common web vulns and secure patterns.
+        - Developed internal tooling to automate triage and deduplication of security findings.
+
+  education:
+    - degree: "Postgraduate in Cybersecurity / Application Security"
+      school: "FIAP"
+      period: "2023 – 2024"
+      details: "Focused on secure software architecture, microservices, and DevSecOps."
+
+    - degree: "Bachelor in Law (LL.B.)"
+      school: "University Name"
+      period: "2012 – 2017"
+      details: "Background in law and compliance, later pivoting to cybersecurity."
+
+  skills:
+    - category: "Security & AppSec"
+      items:
+        - Threat modeling & risk analysis
+        - Secure SDLC and security champions programs
+        - SAST / DAST / SCA / container & IaC security
+        - WAF tuning, logging, and detection
+
+    - category: "DevSecOps & Platform"
+      items:
+        - GitHub Actions, Bamboo, GitLab CI
+        - Docker, Kubernetes, Helm
+        - Azure Key Vault, AWS Secrets Manager
+        - Observability, logging, and metrics
+
+    - category: "Languages & Tools"
+      items:
+        - Python, Bash
+        - Flask, Django (security reviews)
+        - Git, REST APIs, HTTP
+        - Burp Suite, Nmap, OWASP ZAP
+
+  certifications:
+    - name: "OSCP (example placeholder)"
+      issuer: "OffSec"
+      year: "2024"
+    - name: "CompTIA Security+ (example placeholder)"
+      issuer: "CompTIA"
+      year: "2022"
+
+pt:
+  name: "Vernon Simões"
+  title: "Engenheiro de Segurança de Aplicações / DevSecOps"
+  location: "São Paulo, Brasil"
+  email: "you@example.com"
+  github: "kanedasec"
+  linkedin: "vernon-simoes"
+  mock_pdf_url: "/assets/resume/vernon-simoes-resume-pt.pdf"
+
+  labels:
+    download_pdf: "Baixar PDF (mock)"
+    summary: "Resumo"
+    experience: "Experiência"
+    education: "Formação"
+    skills: "Habilidades"
+    certifications: "Certificações"
+
+  summary: >
+    Engenheiro de segurança de aplicações com experiência em construção de SDLC
+    seguro, integração de segurança em pipelines CI/CD e suporte a times de
+    produto com orientações pragmáticas e focadas no desenvolvedor.
+
+  experience:
+    - role: "Engenheiro Sênior de Segurança de Aplicações"
+      company: "Grande Empresa de Serviços Financeiros"
+      location: "São Paulo, Brasil"
+      period: "2022 – Atual"
+      description: >
+        Liderança de iniciativas de AppSec em múltiplos times de produto,
+        com foco em automação, educação e arquiteturas secure-by-design.
+      highlights:
+        - Implantação de esteiras de segurança (SAST, SCA, segurança de containers e IaC) em vários squads.
+        - Desenho e implementação de programa de security champions integrado às cerimônias ágeis.
+        - Parceria com times de plataforma para padronizar uso de key vault e gestão de secrets.
+
+    - role: "Engenheiro de Segurança de Aplicações"
+      company: "Empresa de Tecnologia / Seguros"
+      location: "São Paulo, Brasil"
+      period: "2019 – 2022"
+      description: >
+        Atuação junto a squads de engenharia para desenhar, revisar e reforçar
+        serviços críticos.
+      highlights:
+        - Modelagem de ameaças e revisão de arquitetura de aplicações de alto risco.
+        - Organização de CTFs internos e treinamentos sobre vulnerabilidades web e padrões seguros.
+        - Desenvolvimento de ferramentas internas para automatizar triagem e deduplicação de achados.
+
+  education:
+    - degree: "Pós-graduação em Cibersegurança / Segurança de Aplicações"
+      school: "FIAP"
+      period: "2023 – 2024"
+      details: "Foco em arquitetura de software segura, microsserviços e DevSecOps."
+
+    - degree: "Bacharelado em Direito"
+      school: "Nome da Universidade"
+      period: "2012 – 2017"
+      details: "Formação em direito e compliance, com migração posterior para cibersegurança."
+
+  skills:
+    - category: "Segurança & AppSec"
+      items:
+        - Modelagem de ameaças & análise de risco
+        - SDLC seguro e programas de security champions
+        - SAST / DAST / SCA / segurança de containers & IaC
+        - Tunagem de WAF, logging e detecção
+
+    - category: "DevSecOps & Plataforma"
+      items:
+        - GitHub Actions, Bamboo, GitLab CI
+        - Docker, Kubernetes, Helm
+        - Azure Key Vault, AWS Secrets Manager
+        - Observabilidade, logging e métricas
+
+    - category: "Linguagens & Ferramentas"
+      items:
+        - Python, Bash
+        - Flask, Django (revisões de segurança)
+        - Git, REST APIs, HTTP
+        - Burp Suite, Nmap, OWASP ZAP
+
+  certifications:
+    - name: "OSCP (exemplo)"
+      issuer: "OffSec"
+      year: "2024"
+    - name: "CompTIA Security+ (exemplo)"
+      issuer: "CompTIA"
+      year: "2022"

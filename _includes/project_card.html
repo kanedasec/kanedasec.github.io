@@ -1,0 +1,38 @@
+{% assign p = include.project %}
+
+<article class="project-card">
+  <header class="project-card__header">
+    <h3 class="project-card__title">
+      {% if p.github %}
+        <a href="{{ p.github }}" target="_blank" rel="noreferrer">{{ p.title }}</a>
+      {% else %}
+        {{ p.title }}
+      {% endif %}
+    </h3>
+    {% if p.tags %}
+      <ul class="project-card__tags">
+        {% for tag in p.tags %}
+          <li class="tag-chip">{{ tag }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </header>
+
+  {% if p.image %}
+    <div class="project-card__image-wrapper">
+      <img src="{{ p.image | relative_url }}" alt="{{ p.title }}" class="project-card__image">
+    </div>
+  {% endif %}
+
+  <p class="project-card__description">{{ p.description }}</p>
+
+  {% if p.links %}
+    <div class="project-card__links">
+      {% for link in p.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noreferrer" class="project-card__link">
+          {{ link.label }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>

@@ -1,0 +1,34 @@
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+
+<div class="footer-inner">
+  <div class="footer-left">
+    <p class="footer-title">
+      {% if lang == 'pt' %}
+        Segurança de Aplicações & DevSecOps
+      {% else %}
+        Application Security & DevSecOps
+      {% endif %}
+    </p>
+    <p class="footer-copy">
+      &copy; {{ "now" | date: "%Y" }} {{ site.author.name }}.
+      {% if lang == 'pt' %}Todos os direitos reservados.{% else %}All rights reserved.{% endif %}
+    </p>
+  </div>
+
+  <div class="footer-right">
+    <div class="footer-social">
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">GitHub</a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noreferrer">LinkedIn</a>
+      {% endif %}
+      {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}">Email</a>
+      {% endif %}
+    </div>
+    <button id="theme-toggle-footer" class="footer-theme-toggle">
+      🌗
+    </button>
+  </div>
+</div>

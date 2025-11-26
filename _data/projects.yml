@@ -1,0 +1,82 @@
+en:
+  title: "Projects"
+  subtitle: "Security tooling, experiments, and learning playgrounds."
+  projects:
+    - id: zeta-hunter
+      title: "ZetaHunter – Bug Bounty Automation"
+      github: "https://github.com/kanedasec/ZetaHunter"
+      description: >
+        Orchestrates security tools and AI-assisted playbooks to automate parts
+        of bug bounty workflows. Focused on reproducible scans, diffing results,
+        and surfacing high-signal findings.
+      tags:
+        - AppSec
+        - Automation
+        - Bug Bounty
+      links:
+        - label: "Repository"
+          url: "https://github.com/kanedasec/ZetaHunter"
+
+    - id: fp-gui
+      title: "FP-GUI – False Positive Justification"
+      github: "https://github.com/kanedasec/fp-gui"
+      description: >
+        Desktop app to manage false-positive justifications for vulnerability
+        findings. Designed to keep triage disciplined and auditable.
+      tags:
+        - AppSec
+        - Tooling
+        - Desktop
+
+    - id: security-hub
+      title: "Security Hub – Chapter Metrics"
+      github: "https://github.com/kanedasec/security-hub"
+      description: >
+        Dashboard-style project to consolidate AppSec metrics, squad maturity
+        indicators, and mapping to frameworks like NIST CSF.
+      tags:
+        - Metrics
+        - DevSecOps
+        - Dashboards
+
+pt:
+  title: "Projetos"
+  subtitle: "Ferramentas de segurança, experimentos e laboratórios de aprendizado."
+  projects:
+    - id: zeta-hunter
+      title: "ZetaHunter – Automação para Bug Bounty"
+      github: "https://github.com/kanedasec/ZetaHunter"
+      description: >
+        Orquestra ferramentas de segurança e playbooks assistidos por IA para
+        automatizar partes do fluxo de bug bounty. Focado em scans reprodutíveis,
+        comparação de resultados e priorização de achados de alto impacto.
+      tags:
+        - AppSec
+        - Automação
+        - Bug Bounty
+      links:
+        - label: "Repositório"
+          url: "https://github.com/kanedasec/ZetaHunter"
+
+    - id: fp-gui
+      title: "FP-GUI – Justificativa de Falsos Positivos"
+      github: "https://github.com/kanedasec/fp-gui"
+      description: >
+        Aplicação desktop para gerenciar justificativas de falso positivo de
+        vulnerabilidades. Pensada para manter o processo de triagem disciplinado
+        e auditável.
+      tags:
+        - AppSec
+        - Ferramentas
+        - Desktop
+
+    - id: security-hub
+      title: "Security Hub – Métricas de Chapter"
+      github: "https://github.com/kanedasec/security-hub"
+      description: >
+        Projeto de dashboard para consolidar métricas de AppSec, indicadores de
+        maturidade de squads e mapeamento para frameworks como o NIST CSF.
+      tags:
+        - Métricas
+        - DevSecOps
+        - Dashboards

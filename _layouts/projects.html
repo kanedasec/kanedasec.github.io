@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% assign lang = page.lang | default: site.lang | default: 'en' %}
+{% assign projects_data = site.data.projects[lang] %}
+{% assign projects = projects_data.projects %}
+
+<section class="section section--projects">
+  <div class="section__inner">
+    <header class="section-header">
+      <h1 class="section__title">{{ projects_data.title }}</h1>
+      {% if projects_data.subtitle %}
+        <p class="section__text">{{ projects_data.subtitle }}</p>
+      {% endif %}
+    </header>
+
+    <div class="projects-grid">
+      {% for project in projects %}
+        {% include project_card.html project=project %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

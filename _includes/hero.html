@@ -1,0 +1,39 @@
+{% assign home = include.home %}
+
+<div class="hero">
+  <div class="hero__content">
+    <p class="hero__kicker">{{ home.hero.kicker }}</p>
+    <h1 class="hero__title">{{ home.hero.title }}</h1>
+    <p class="hero__subtitle">{{ home.hero.subtitle }}</p>
+
+    <div class="hero__actions">
+      {% if site.author.github %}
+        <a class="btn btn--primary" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noreferrer">
+          <span>GitHub</span>
+        </a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noreferrer">
+          <span>LinkedIn</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="hero__panel">
+    <div class="terminal-card">
+      <div class="terminal-card__header">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
+        <span class="terminal-card__title">~/portfolio/appsec</span>
+      </div>
+      <div class="terminal-card__body">
+        <pre><code>&gt; threat_model --target "modern web app"
+&gt; run ci-security --pipeline github-actions
+&gt; monitor logs --mode purple-team
+✔ portfolio loaded successfully</code></pre>
+      </div>
+    </div>
+  </div>
+</div>
