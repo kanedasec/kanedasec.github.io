@@ -7,8 +7,8 @@ en:
       security automation and governance of risks and controls in high-impact systems.
     avatar:
       enabled: true
-      image: "/assets/img/profile-avatar.png"   # coloque sua imagem aqui
-      alt: "Profile photo of Vernon Simões"
+      image: "/assets/img/profile-avatar.jpeg"  
+      alt: "Vernon Simões Profile Photo"
 
   about:
     title: "About"
