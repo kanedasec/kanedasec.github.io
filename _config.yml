@@ -17,7 +17,7 @@ theme: minima # we won't use its layouts, but it's safe and GitHub Pages–compa
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-
+ 
 # Collections/posts
 permalink: /posts/:title/
 
