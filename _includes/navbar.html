@@ -16,7 +16,7 @@
     <li><a href="{{ lang_prefix | append: '/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Início{% else %}Home{% endif %}</a></li>
     <li><a href="{{ lang_prefix | append: '/resume/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Currículo{% else %}Resume{% endif %}</a></li>
     <li><a href="{{ lang_prefix | append: '/projects/' | relative_url }}" class="nav__link">{% if lang == 'pt' %}Projetos{% else %}Projects{% endif %}</a></li>
-    <li><a href="{{ lang_prefix | append: '/posts/' | relative_url }}" class="nav__link">Posts</a></li>
+    <li><a href="{{ '/posts/' | relative_url }}" class="nav__link">Posts</a></li>
   </ul>
 
   <div class="nav__actions">
