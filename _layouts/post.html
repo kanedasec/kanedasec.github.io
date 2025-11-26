@@ -28,8 +28,7 @@ layout: default
   </div>
 
   <footer class="post-footer">
-    <a href="{% if page.lang == 'pt' %}{{ '/pt/posts/' | relative_url }}{% else %}{{ '/posts/' | relative_url }}{% endif %}" class="btn btn--ghost">
-      {% if page.lang == 'pt' %}← Voltar para posts{% else %}← Back to posts{% endif %}
+    <a href="{ '/posts/' | relative_url }" class="btn btn--ghost">
     </a>
   </footer>
 </article>
