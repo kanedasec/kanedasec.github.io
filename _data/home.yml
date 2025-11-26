@@ -68,7 +68,7 @@ pt:
       segurança e governança de riscos e controles em sistemas de alto impacto.
     avatar:
       enabled: true
-      image: "/assets/img/profile-avatar.png"   # mesma imagem, ou outra se quiser
+      image: "/assets/img/profile-avatar.jpeg"   # mesma imagem, ou outra se quiser
       alt: "Foto de perfil de Vernon Simões"
 
   about:
