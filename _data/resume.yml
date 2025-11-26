@@ -1,174 +1,266 @@
 en:
   name: "Vernon Simões"
-  title: "Senior Application Security / DevSecOps Engineer"
-  location: "São Paulo, Brazil"
-  email: "you@example.com"
+  title: "Senior Application Security Engineer | DevSecOps | SSDLC | GRC"
+  location: "Vila Velha, Espírito Santo, Brazil"
+  email: "vernon.acs@gmail.com"
   github: "kanedasec"
   linkedin: "vernon-simoes"
-  mock_pdf_url: "/assets/resume/vernon-simoes-resume.pdf"
+  mock_pdf_url: "/assets/resume/vernon-simoes-resume-en.pdf"
 
   labels:
-    download_pdf: "Download PDF (mock)"
-    summary: "Summary"
+    download_pdf: "Download PDF"
+    summary: "Professional Summary"
     experience: "Experience"
     education: "Education"
     skills: "Skills"
     certifications: "Certifications"
 
   summary: >
-    Application security engineer with experience building secure SDLCs,
-    integrating security into CI/CD pipelines, and supporting product teams with
-    pragmatic, developer-friendly security guidance.
+    Application Security Engineer focused on helping engineering teams build secure, resilient
+    and scalable applications. Experience across AppSec, DevSecOps, secure SDLC (SSDLC),
+    penetration testing, vulnerability management and security automation. I work closely with
+    product, development and infrastructure teams to support secure design decisions, threat
+    modeling, remediation and governance of risks and controls. Comfortable acting as a bridge
+    between security, SRE, DevSecOps and development in large, fast-moving organizations, with
+    a strong focus on reducing risk without slowing delivery. Open to global, remote
+    opportunities in mature or growing security programs.
 
   experience:
-    - role: "Senior Application Security Engineer"
-      company: "Large Financial Services Company"
-      location: "São Paulo, Brazil"
-      period: "2022 – Present"
+    - role: "Senior Application Security Analyst"
+      company: "Bradesco Seguros"
+      location: "Vila Velha, Brazil (Remote)"
+      period: "Feb 2023 – Present"
       description: >
-        Leading application security initiatives across multiple product teams,
-        with a focus on automation, education, and secure-by-design architectures.
+        Driving application security initiatives across multiple squads, embedding security into
+        the software development lifecycle and partnering with product and engineering teams.
       highlights:
-        - Built AppSec guardrails into CI/CD (SAST, SCA, container security, IaC) across multiple squads.
-        - Designed and rolled out a security champions program integrated with existing agile rituals.
-        - Partnered with platform teams to standardize secrets management and key vault usage.
+        - Lead AppSec and SSDLC initiatives including threat modeling, secure development practices and continuous improvements to security processes.
+        - Guide developers on secure coding and remediation approaches, translating complex findings into practical, actionable steps.
+        - Improve SAST and DAST processes, reducing false positives and increasing signal-to-noise ratio in automated pipelines.
+        - Collaborate with cross-functional teams (risk, SRE, DevSecOps, infrastructure) to validate vulnerabilities and support secure design decisions.
+        - Contribute to vulnerability management workflows, risk analysis and mitigation plans for on-premise and cloud environments.
+        - Deliver workshops and internal training sessions to strengthen security awareness and build a security-first engineering culture.
+        - Align security requirements and controls with business goals, industry standards and regulatory expectations.
 
-    - role: "Application Security Engineer"
-      company: "Tech / Insurance Company"
+    - role: "Cybersecurity Consultant (AppSec, GRC and ITGC)"
+      company: "Mazars Brazil"
       location: "São Paulo, Brazil"
-      period: "2019 – 2022"
+      period: "Aug 2022 – Feb 2023"
       description: >
-        Embedded with engineering squads to design, review, and harden critical services.
+        Worked on application and infrastructure security assessments combined with GRC and IT General Controls
+        (ITGC) engagements for clients in different industries.
       highlights:
-        - Performed threat modeling and architecture reviews for high-risk applications.
-        - Ran internal CTFs and training sessions focused on common web vulns and secure patterns.
-        - Developed internal tooling to automate triage and deduplication of security findings.
+        - Performed penetration tests and technical security assessments on applications and infrastructure, identifying risks and proposing remediation.
+        - Acted on GRC and ITGC projects, reviewing IT general controls, performing risk assessments and documenting evidence for audits.
+        - Developed and refined security policies, standards and procedures aligned with regulatory requirements and industry frameworks.
+        - Collaborated with engineering teams to implement secure coding practices, threat modeling and security risk evaluations.
+        - Used tools such as Burp Suite, Nmap and Metasploit to identify and validate common web and infrastructure vulnerabilities.
+        - Delivered clear, actionable security recommendations and supported clients in prioritizing security improvements.
+
+    - role: "Cybersecurity Consultant"
+      company: "KPMG Brazil"
+      location: "São Paulo, Brazil"
+      period: "Oct 2021 – Aug 2022"
+      description: >
+        Conducted penetration tests and security assessments for enterprise clients, supporting GRC and compliance efforts.
+      highlights:
+        - Executed pentests and security assessments on applications and systems, focusing on risk and business impact.
+        - Contributed to security GRC initiatives by helping design and improve security policies, standards and controls.
+        - Produced technical and management reports, translating vulnerabilities into understandable risks for stakeholders.
+        - Worked closely with clients to address security issues and define realistic, improvement-focused action plans.
+
+    - role: "Lawyer"
+      company: "Santos Simões Advogados"
+      location: "Vitória, Brazil"
+      period: "2016 – 2021"
+      description: >
+        Legal consulting with an emphasis on digital crimes, financial crimes, due diligence and asset investigation.
+      highlights:
+        - Supported clients in complex investigations involving technology, privacy and regulatory risk.
 
   education:
-    - degree: "Postgraduate in Cybersecurity / Application Security"
+    - degree: "Postgraduate Degree in Software Architecture"
       school: "FIAP"
-      period: "2023 – 2024"
-      details: "Focused on secure software architecture, microservices, and DevSecOps."
+      period: "Feb 2023 – Sep 2025"
+      details: "Focus on software architecture, microservices, distributed systems and secure-by-design patterns."
 
-    - degree: "Bachelor in Law (LL.B.)"
-      school: "University Name"
-      period: "2012 – 2017"
-      details: "Background in law and compliance, later pivoting to cybersecurity."
+    - degree: "Undergraduate Degree in Cyber Defense"
+      school: "FIAP"
+      period: "Feb 2021 – 2023"
+      details: "Program focused on cybersecurity, offensive security, defensive strategies and incident response."
+
+    - degree: "Master's Degree in Fundamental Rights and Guarantees"
+      school: "FDV (Faculdade de Direito de Vitória)"
+      period: "2016 – 2017"
+      details: "Research on fundamental rights, privacy and legal aspects of risk."
+
+    - degree: "Bachelor of Law"
+      school: "FDV (Faculdade de Direito de Vitória)"
+      period: "2011 – 2015"
+      details: "Law degree with exposure to financial regulation and compliance."
 
   skills:
-    - category: "Security & AppSec"
+    - category: "Application Security & SSDLC"
       items:
-        - Threat modeling & risk analysis
-        - Secure SDLC and security champions programs
-        - SAST / DAST / SCA / container & IaC security
-        - WAF tuning, logging, and detection
+        - Secure SDLC (SSDLC), security requirements and design reviews
+        - Threat modeling for web, APIs, microservices and cloud workloads
+        - Secure coding guidance and architecture hardening
+        - Vulnerability management and remediation workflows
+        - Web and API security, WAF tuning
 
-    - category: "DevSecOps & Platform"
+    - category: "DevSecOps, CI/CD & Automation"
       items:
-        - GitHub Actions, Bamboo, GitLab CI
-        - Docker, Kubernetes, Helm
-        - Azure Key Vault, AWS Secrets Manager
-        - Observability, logging, and metrics
+        - Integration of SAST, DAST and SCA in CI/CD pipelines
+        - False positive reduction and tuning of security tools
+        - Security automation and scripting (Python, Shell)
+        - Collaboration with SRE and platform teams to embed controls
 
-    - category: "Languages & Tools"
+    - category: "GRC, ITGC & Governance"
       items:
-        - Python, Bash
-        - Flask, Django (security reviews)
-        - Git, REST APIs, HTTP
-        - Burp Suite, Nmap, OWASP ZAP
+        - GRC projects and IT General Controls (ITGC) assessments
+        - Risk assessment, controls design and evidence for audits
+        - Security policies, standards and procedures
+        - Alignment with regulatory requirements and industry frameworks
 
-  certifications:
-    - name: "OSCP (example placeholder)"
-      issuer: "OffSec"
-      year: "2024"
-    - name: "CompTIA Security+ (example placeholder)"
-      issuer: "CompTIA"
-      year: "2022"
+    - category: "Cloud, Monitoring & Tools"
+      items:
+        - Familiarity with AWS, Azure and GCP
+        - Experience with security and monitoring dashboards (e.g., Grafana, Prometheus, BI)
+        - Offensive security tools: Burp Suite, Nmap, Metasploit
+        - Git, HTTP, REST APIs and Linux
+
+  certifications: []
 
 pt:
   name: "Vernon Simões"
-  title: "Engenheiro de Segurança de Aplicações / DevSecOps"
-  location: "São Paulo, Brasil"
-  email: "you@example.com"
+  title: "Engenheiro de Segurança de Aplicações Sênior | DevSecOps | SSDLC | GRC"
+  location: "Vila Velha, Espírito Santo, Brasil"
+  email: "vernon.acs@gmail.com"
   github: "kanedasec"
   linkedin: "vernon-simoes"
   mock_pdf_url: "/assets/resume/vernon-simoes-resume-pt.pdf"
 
   labels:
-    download_pdf: "Baixar PDF (mock)"
-    summary: "Resumo"
+    download_pdf: "Baixar PDF"
+    summary: "Resumo Profissional"
     experience: "Experiência"
     education: "Formação"
     skills: "Habilidades"
     certifications: "Certificações"
 
   summary: >
-    Engenheiro de segurança de aplicações com experiência em construção de SDLC
-    seguro, integração de segurança em pipelines CI/CD e suporte a times de
-    produto com orientações pragmáticas e focadas no desenvolvedor.
+    Profissional de Segurança de Aplicações com foco em apoiar times de engenharia na construção
+    de aplicações seguras, resilientes e escaláveis. Experiência em AppSec, DevSecOps, SSDLC,
+    pentest, gestão de vulnerabilidades, automação de segurança e governança de riscos e
+    controles. Atuo próximo a times de produto, desenvolvimento, infraestrutura, SRE e riscos,
+    apoiando decisões de arquitetura segura, modelagem de ameaças e implantação de controles
+    ao longo do ciclo de desenvolvimento. Busco sempre reduzir riscos sem travar a entrega,
+    equilibrando governança, automação e colaboração com os times de engenharia. Aberto a
+    oportunidades remotas e internacionais em programas de segurança maduros ou em evolução.
 
   experience:
-    - role: "Engenheiro Sênior de Segurança de Aplicações"
-      company: "Grande Empresa de Serviços Financeiros"
-      location: "São Paulo, Brasil"
-      period: "2022 – Atual"
+    - role: "Analista Sênior de Segurança de Aplicações (AppSec)"
+      company: "Bradesco Seguros"
+      location: "Vila Velha, Brasil (Remoto)"
+      period: "Fev 2023 – Atual"
       description: >
-        Liderança de iniciativas de AppSec em múltiplos times de produto,
-        com foco em automação, educação e arquiteturas secure-by-design.
+        Liderança de iniciativas de AppSec e SSDLC em múltiplos squads, integrando segurança ao
+        ciclo de desenvolvimento de software.
       highlights:
-        - Implantação de esteiras de segurança (SAST, SCA, segurança de containers e IaC) em vários squads.
-        - Desenho e implementação de programa de security champions integrado às cerimônias ágeis.
-        - Parceria com times de plataforma para padronizar uso de key vault e gestão de secrets.
+        - Condução de iniciativas de SSDLC, modelagem de ameaças e definição de controles de segurança ao longo do ciclo de desenvolvimento.
+        - Apoio a desenvolvedores com orientações de secure coding, revisão de arquitetura e estratégias de correção de vulnerabilidades.
+        - Aprimoramento de processos SAST e DAST, com redução de falsos positivos e aumento do sinal relevante para os times.
+        - Colaboração com áreas de risco, SRE, DevSecOps e infraestrutura para validar vulnerabilidades e apoiar decisões de arquitetura segura.
+        - Participação em fluxos de gestão de vulnerabilidades, análise de risco e definição de planos de ação para ambientes on-premise e cloud.
+        - Condução de treinamentos, workshops e ações de awareness para fortalecer a cultura de segurança na engenharia.
+        - Atuação junto às áreas de negócio para alinhar requisitos de segurança, padrões regulatórios e metas organizacionais.
 
-    - role: "Engenheiro de Segurança de Aplicações"
-      company: "Empresa de Tecnologia / Seguros"
+    - role: "Consultor em Cyber Segurança (AppSec, GRC e ITGC)"
+      company: "Mazars Brasil"
       location: "São Paulo, Brasil"
-      period: "2019 – 2022"
+      period: "Ago 2022 – Fev 2023"
       description: >
-        Atuação junto a squads de engenharia para desenhar, revisar e reforçar
-        serviços críticos.
+        Atuação combinando avaliações técnicas de segurança (AppSec) com projetos de GRC e ITGC
+        para clientes de diferentes segmentos.
       highlights:
-        - Modelagem de ameaças e revisão de arquitetura de aplicações de alto risco.
-        - Organização de CTFs internos e treinamentos sobre vulnerabilidades web e padrões seguros.
-        - Desenvolvimento de ferramentas internas para automatizar triagem e deduplicação de achados.
+        - Realização de testes de intrusão e avaliações de segurança em aplicações e infraestrutura, identificando vulnerabilidades e riscos.
+        - Participação em projetos de GRC e ITGC, com revisão de controles gerais de TI, mapeamento de riscos e suporte a auditorias.
+        - Desenvolvimento e revisão de políticas, padrões e procedimentos de segurança alinhados a requisitos regulatórios e frameworks de mercado.
+        - Apoio a equipes de desenvolvimento com práticas de código seguro, modelagem de ameaças e avaliações de risco de aplicações.
+        - Uso de ferramentas como Burp Suite, Nmap e Metasploit para identificação e exploração de vulnerabilidades comuns.
+        - Entrega de recomendações claras e acionáveis para aumento da maturidade de segurança dos clientes.
+
+    - role: "Consultor em Cyber Segurança"
+      company: "KPMG Brasil"
+      location: "São Paulo, Brasil"
+      period: "Out 2021 – Ago 2022"
+      description: >
+        Consultoria em segurança ofensiva e avaliações de segurança para clientes corporativos.
+      highlights:
+        - Condução de pentests e assessments de segurança em aplicações e sistemas críticos.
+        - Apoio a iniciativas de GRC de segurança, contribuindo para políticas, padrões e controles aderentes a normas e regulamentações.
+        - Elaboração de relatórios técnicos e executivos, traduzindo vulnerabilidades em riscos compreensíveis para áreas de negócio e auditoria.
+        - Suporte a clientes na priorização de correções, definição de planos de ação e evolução da maturidade de segurança.
+
+    - role: "Advogado"
+      company: "Santos Simões Advogados"
+      location: "Vitória, Brasil"
+      period: "2016 – 2021"
+      description: >
+        Atuação em consultoria jurídica voltada a crimes digitais, crimes financeiros, due diligence
+        e investigação patrimonial.
+      highlights:
+        - Suporte jurídico em investigações envolvendo tecnologia, privacidade, proteção de dados e riscos regulatórios.
 
   education:
-    - degree: "Pós-graduação em Cibersegurança / Segurança de Aplicações"
+    - degree: "Pós-graduação em Arquitetura de Software"
       school: "FIAP"
-      period: "2023 – 2024"
-      details: "Foco em arquitetura de software segura, microsserviços e DevSecOps."
+      period: "2023 – 2025"
+      details: "Foco em arquitetura de software, microsserviços, sistemas distribuídos e padrões secure by design."
+
+    - degree: "Graduação em Defesa Cibernética"
+      school: "FIAP"
+      period: "2021 – 2023"
+      details: "Formação em cibersegurança, segurança ofensiva e defensiva, resposta a incidentes e gestão de riscos."
+
+    - degree: "Mestrado em Direitos e Garantias Fundamentais"
+      school: "FDV (Faculdade de Direito de Vitória)"
+      period: "2016 – 2017"
+      details: "Ênfase em direitos fundamentais, privacidade e aspectos jurídicos relacionados a risco e tecnologia."
 
     - degree: "Bacharelado em Direito"
-      school: "Nome da Universidade"
-      period: "2012 – 2017"
-      details: "Formação em direito e compliance, com migração posterior para cibersegurança."
+      school: "FDV (Faculdade de Direito de Vitória)"
+      period: "2011 – 2015"
+      details: "Formação em Direito com exposição a temas de regulação financeira, compliance e responsabilidade civil."
 
   skills:
-    - category: "Segurança & AppSec"
+    - category: "Segurança de Aplicações & SSDLC"
       items:
-        - Modelagem de ameaças & análise de risco
-        - SDLC seguro e programas de security champions
-        - SAST / DAST / SCA / segurança de containers & IaC
-        - Tunagem de WAF, logging e detecção
+        - AppSec, SSDLC, requisitos e revisões de segurança em aplicações
+        - Modelagem de ameaças para web, APIs, microsserviços e cloud
+        - Secure coding, revisão de arquitetura e hardening de aplicações
+        - Gestão de vulnerabilidades e definição de planos de ação
+        - Segurança de APIs, WAF e proteção de camadas de aplicação
 
-    - category: "DevSecOps & Plataforma"
+    - category: "DevSecOps, CI/CD & Automação"
       items:
-        - GitHub Actions, Bamboo, GitLab CI
-        - Docker, Kubernetes, Helm
-        - Azure Key Vault, AWS Secrets Manager
-        - Observabilidade, logging e métricas
+        - Integração de SAST, DAST e SCA em pipelines CI/CD
+        - Redução de falsos positivos e tunning de ferramentas de segurança
+        - Automação de segurança com Python e Shell Script
+        - Colaboração com SRE e times de plataforma para incorporar controles
 
-    - category: "Linguagens & Ferramentas"
+    - category: "GRC, ITGC & Governança"
       items:
-        - Python, Bash
-        - Flask, Django (revisões de segurança)
-        - Git, REST APIs, HTTP
-        - Burp Suite, Nmap, OWASP ZAP
+        - Projetos de GRC e avaliação de ITGCs em clientes corporativos
+        - Avaliação de riscos, desenho de controles e evidências para auditoria
+        - Políticas, padrões e procedimentos de segurança da informação
+        - Alinhamento a requisitos regulatórios e frameworks de mercado
 
-  certifications:
-    - name: "OSCP (exemplo)"
-      issuer: "OffSec"
-      year: "2024"
-    - name: "CompTIA Security+ (exemplo)"
-      issuer: "CompTIA"
-      year: "2022"
+    - category: "Cloud, Observabilidade & Ferramentas"
+      items:
+        - Familiaridade com AWS, Azure e GCP
+        - Experiência com ferramentas de monitoramento e dashboards (Grafana, Prometheus, BI)
+        - Ferramentas ofensivas: Burp Suite, Nmap, Metasploit
+        - Git, HTTP, REST APIs e sistemas baseados em Linux
+
+  certifications: []

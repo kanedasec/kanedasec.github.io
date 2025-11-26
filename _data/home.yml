@@ -1,41 +1,52 @@
 en:
   hero:
-    kicker: "Application Security Engineer"
-    title: "I help teams ship secure, observable software."
-    subtitle: "Senior AppSec & DevSecOps engineer focused on building threat-aware architectures, secure SDLCs, and pragmatic tooling."
+    kicker: "Senior Application Security Engineer"
+    title: "I help teams ship secure, resilient and observable software."
+    subtitle: >
+      Application Security and DevSecOps engineer focused on secure SDLC, threat modeling,
+      security automation and governance of risks and controls in high-impact systems.
+    avatar:
+      enabled: true
+      image: "/assets/img/profile-avatar.png"   # coloque sua imagem aqui
+      alt: "Profile photo of Vernon Simões"
 
   about:
     title: "About"
     body: >
-      I'm an application security engineer who lives at the intersection of code, threat modeling,
-      and developer experience. I like building guardrails, not gates — enabling teams to move fast
-      while keeping systems resilient and observable.
+      I’m an Application Security Engineer with a strong focus on helping engineering teams build secure,
+      resilient and scalable applications. Over the past years, I’ve worked closely with product,
+      development and infrastructure teams, supporting secure design decisions, threat modeling,
+      vulnerability remediation and security automation.
+      My experience ranges from hands-on penetration testing and code-level guidance to designing AppSec
+      programs, improving security pipelines and implementing governance practices inside large, fast-moving
+      organizations. I enjoy tackling complex security problems in distributed systems, microservices and
+      cloud environments, always aiming to reduce risk without slowing down delivery.
 
   skills:
     title: "Skills"
     groups:
-      - name: "Application Security"
+      - name: "Application Security & SSDLC"
         items:
-          - Threat modeling & design reviews
-          - Secure SDLC & security champions
-          - SAST, DAST, SCA, container security
-          - Security code reviews & hardening
-      - name: "DevSecOps"
+          - Threat modeling and secure design reviews
+          - Secure SDLC (SSDLC) practices and requirements
+          - Web and API security, WAF tuning
+          - Vulnerability management and remediation workflows
+      - name: "DevSecOps & Automation"
         items:
-          - CI/CD pipelines for security automation
-          - GitHub Actions, Bamboo, GitLab CI
-          - IaC security (Terraform, Kubernetes)
-          - Secrets management (Key Vault, Secrets Manager)
-      - name: "Offensive / Defensive"
+          - CI/CD security (SAST, DAST, SCA) integration
+          - Security automation with Python and Shell
+          - Collaboration with SRE and platform teams
+          - Evidence collection and pipeline-based controls
+      - name: "GRC, ITGC & Cloud"
         items:
-          - Bug bounty & offensive tooling
-          - Web exploitation & CTFs
-          - WAF tuning & log analysis
-          - Detection engineering & monitoring
+          - GRC and IT General Controls (ITGC) assessments
+          - Risk assessment and security governance
+          - Familiarity with AWS, Azure and GCP
+          - Monitoring and dashboards (Grafana, Prometheus, BI)
 
   featured_projects:
     title: "Featured Projects"
-    subtitle: "A few projects that reflect how I think about secure engineering."
+    subtitle: "A few projects that reflect how I think about secure engineering and automation."
     view_all_label: "View all projects"
     items:
       - zeta-hunter
@@ -45,47 +56,59 @@ en:
   contact:
     title: "Contact"
     body: >
-      Want to discuss an AppSec program, a weird vulnerability, or a new security tool idea?
+      Want to discuss secure SDLC, risk and controls automation or new security tooling ideas?
       Reach out via email or message me on LinkedIn.
 
 pt:
   hero:
-    kicker: "Engenheiro de Segurança de Aplicações"
-    title: "Ajudo times a entregar software seguro e observável."
-    subtitle: "Engenheiro de AppSec & DevSecOps focado em arquiteturas orientadas a ameaças, SDLC seguro e automações pragmáticas."
+    kicker: "Engenheiro Sênior de Segurança de Aplicações"
+    title: "Ajudo times a entregar software seguro, resiliente e observável."
+    subtitle: >
+      Engenheiro de AppSec e DevSecOps focado em SSDLC, modelagem de ameaças, automação de
+      segurança e governança de riscos e controles em sistemas de alto impacto.
+    avatar:
+      enabled: true
+      image: "/assets/img/profile-avatar.png"   # mesma imagem, ou outra se quiser
+      alt: "Foto de perfil de Vernon Simões"
 
   about:
     title: "Sobre"
     body: >
-      Sou um engenheiro de segurança de aplicações que atua na interseção entre código,
-      modelagem de ameaças e experiência de desenvolvedor. Gosto de criar trilhos de segurança,
-      não barreiras — permitindo que times se movam rápido com sistemas resilientes e observáveis.
+      Sou um profissional de Segurança de Aplicações com foco em apoiar times de engenharia na construção
+      de aplicações seguras, resilientes e escaláveis. Ao longo dos últimos anos, atuei diretamente com equipes
+      de produto, desenvolvimento e infraestrutura, auxiliando em decisões de arquitetura segura, modelagem de
+      ameaças, correção de vulnerabilidades e automação de segurança.
+      Minha experiência combina atividades práticas — como pentest, análise de código e revisão de controles —
+      com iniciativas estratégicas, incluindo desenho de programas de AppSec, evolução de pipelines de segurança
+      e implementação de processos de governança em organizações de grande porte. Gosto de enfrentar problemas
+      complexos em sistemas distribuídos, microsserviços e ambientes em nuvem, sempre com a mentalidade de
+      reduzir riscos sem travar a entrega.
 
   skills:
     title: "Habilidades"
     groups:
-      - name: "Segurança de Aplicações"
+      - name: "Segurança de Aplicações & SSDLC"
         items:
-          - Modelagem de ameaças & análise de arquitetura
-          - SDLC seguro & security champions
-          - SAST, DAST, SCA, segurança de containers
-          - Code review seguro & hardening
-      - name: "DevSecOps"
+          - Modelagem de ameaças e revisão de arquitetura
+          - Práticas de SDLC seguro (SSDLC)
+          - Segurança de aplicações web e APIs, WAF
+          - Gestão de vulnerabilidades e planos de ação
+      - name: "DevSecOps & Automação"
         items:
-          - Pipelines CI/CD com automação de segurança
-          - GitHub Actions, Bamboo, GitLab CI
-          - Segurança de IaC (Terraform, Kubernetes)
-          - Gestão de secrets (Key Vault, Secrets Manager)
-      - name: "Ofensiva / Defensiva"
+          - Integração de SAST, DAST e SCA em CI/CD
+          - Automação de segurança com Python e Shell Script
+          - Colaboração com SRE e times de plataforma
+          - Evidências de controles e monitoração em pipelines
+      - name: "GRC, ITGC & Cloud"
         items:
-          - Bug bounty & ferramentas ofensivas
-          - Exploração web & CTFs
-          - Tunagem de WAF & análise de logs
-          - Engenharia de detecção & monitoração
+          - Projetos de GRC e avaliação de ITGCs
+          - Governança de riscos e controles de TI
+          - Familiaridade com AWS, Azure e GCP
+          - Monitoramento e dashboards (Grafana, Prometheus, BI)
 
   featured_projects:
     title: "Projetos em Destaque"
-    subtitle: "Alguns projetos que refletem como penso sobre engenharia segura."
+    subtitle: "Alguns projetos que refletem como penso sobre engenharia segura e automação."
     view_all_label: "Ver todos os projetos"
     items:
       - zeta-hunter
@@ -95,5 +118,5 @@ pt:
   contact:
     title: "Contato"
     body: >
-      Quer conversar sobre programa de AppSec, alguma vulnerabilidade estranha
-      ou uma ideia de ferramenta de segurança? Fale comigo por e-mail ou LinkedIn.
+      Quer conversar sobre SSDLC, automação de controles ou novas ideias de ferramentas de segurança?
+      Fale comigo por e-mail ou LinkedIn.

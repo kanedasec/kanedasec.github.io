@@ -2,6 +2,16 @@
 
 <div class="hero">
   <div class="hero__content">
+    {% if home.hero.avatar.enabled and home.hero.avatar.image %}
+      <div class="hero__avatar">
+        <div class="hero__avatar-inner">
+          <img src="{{ home.hero.avatar.image | relative_url }}"
+               alt="{{ home.hero.avatar.alt | default: 'Profile photo' }}"
+               class="hero__avatar-img">
+        </div>
+      </div>
+    {% endif %}
+
     <p class="hero__kicker">{{ home.hero.kicker }}</p>
     <h1 class="hero__title">{{ home.hero.title }}</h1>
     <p class="hero__subtitle">{{ home.hero.subtitle }}</p>
