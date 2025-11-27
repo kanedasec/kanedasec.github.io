@@ -64,12 +64,12 @@ Além disso, criei também:
 - alerta de violação de SLO de latência (p95 acima do limite)
 - alerta de tráfego muito baixo (sinal de monitoramento cego)
 
-<img src="/assets/img/posts/Appsec-Labs/Segundo-laboratório-SRE+AppSec/2-1.png" style="width:100%;">
+<img src="/assets/img/posts/Appsec-Labs/Segundo-Laboratório-SRE+AppSec/2-1.png" style="width:100%;">
 <br>
 Alertas disparados no Prometheus
 
 <br>
-<img src="/assets/img/posts/Appsec-Labs/Segundo-laboratório-SRE+AppSec/2-2.png" style="width:100%;">
+<img src="/assets/img/posts/Appsec-Labs/Segundo-Laboratório-SRE+AppSec/2-2.png" style="width:100%;">
 <br>
 Alertas Recebidos no Alert Manager
 
