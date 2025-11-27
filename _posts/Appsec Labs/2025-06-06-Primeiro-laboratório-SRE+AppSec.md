@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Primeiro laboratório SRE + AppSec"
+title: "Primeiro laboratório SRE + AppSec - Métricas e Visualização"
 date: 2025-06-06
 author: Kanedasec
 lang: pt
