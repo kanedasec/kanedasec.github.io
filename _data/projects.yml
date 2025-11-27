@@ -29,6 +29,48 @@ en:
         - Observability
         - Prometheus
         - Grafana
+    
+    - id: sre-observability-lab-2
+      title: "SRE Security Observability Lab 2"
+      github: "https://github.com/kanedasec/Security-Alerts-ITGC-Lab2"
+      description: >
+        Second lab in the SRE + AppSec observability series. Builds on the metrics
+        from Lab 1 by adding Prometheus alerting rules, Alertmanager integration,
+        and automatic evidence generation for ITGC controls. The small Flask app
+        now produces security-focused alerts (login failures, latency SLO breaches,
+        low traffic signals) and a Python script exports daily JSON evidence from
+        Prometheus queries. A practical workflow for turning AppSec metrics into
+        operational detection and audit-ready artifacts.
+      tags:
+        - SRE
+        - AppSec
+        - Observability
+        - Prometheus
+        - Alertmanager
+        - ITGC
+        - Evidence
+        - Python
+      
+    - id: cloud-security-telemetry-lab-3
+      title: "SRE Security Observability Lab 3"
+      github: "https://github.com/kanedasec/Cloud-Security-Telemetry-Lab-3"
+      description: >
+        Third lab in the SRE + AppSec observability series. A Python Prometheus
+        exporter pulls CloudTrail, GuardDuty, IAM and KMS signals directly from AWS,
+        exposing them as real-time cloud posture metrics. Grafana visualizes the
+        SLOs: CloudTrail logging availability, GuardDuty high-severity findings,
+        IAM access key rotation age, and KMS customer-managed key rotation status.
+        A practical exercise in turning cloud configuration drift and ITGC controls
+        into measurable, operational telemetry.
+      tags:
+        - SRE
+        - Cloud Security
+        - AppSec
+        - Observability
+        - Prometheus
+        - Grafana
+        - AWS
+
 
 
 pt:
@@ -63,3 +105,46 @@ pt:
         - Observabilidade
         - Prometheus
         - Grafana
+    
+    - id: sre-observability-lab-2
+      title: "Lab 2 de Observabilidade SRE para Segurança"
+      github: "https://github.com/kanedasec/Security-Alerts-ITGC-Lab2"
+      description: >
+        Segundo laboratório da série de observabilidade para SRE + AppSec.
+        Evolui o Lab 1 adicionando regras de alerta no Prometheus, integração com o
+        Alertmanager e geração automática de evidências para controles de ITGC.
+        A pequena API Flask agora dispara alertas focados em segurança (falhas de
+        login, violações de SLO de latência, tráfego anormalmente baixo) e um script
+        Python exporta evidências diárias em JSON via consultas ao Prometheus.
+        Um fluxo prático para transformar métricas de AppSec em detecção operacional
+        e artefatos prontos para auditoria.
+      tags:
+        - SRE
+        - AppSec
+        - Observabilidade
+        - Prometheus
+        - Alertas
+        - Alertmanager
+        - ITGC
+        - Evidências
+        - Python
+
+    - id: cloud-security-telemetry-lab-3
+      title: "Lab 3 de Observabilidade SRE para Segurança"
+      github: "https://github.com/kanedasec/Cloud-Security-Telemetry-Lab-3"
+      description: >
+        Terceiro laboratório da série de observabilidade para SRE + AppSec.
+        Um exporter em Python coleta sinais do AWS (CloudTrail, GuardDuty, IAM e KMS)
+        e os expõe como métricas Prometheus de postura de nuvem. O Grafana exibe SLOs
+        como: disponibilidade do CloudTrail, findings de alta severidade do GuardDuty,
+        idade máxima de chaves IAM ativas e status de rotação das chaves KMS
+        gerenciadas pelo cliente. Um exercício prático de transformar configurações
+        de nuvem e controles de ITGC em telemetria operacional mensurável.
+      tags:
+        - SRE
+        - Segurança em Nuvem
+        - AppSec
+        - Observabilidade
+        - Prometheus
+        - Grafana
+        - AWS
