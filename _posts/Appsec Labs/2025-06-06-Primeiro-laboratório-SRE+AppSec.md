@@ -7,7 +7,7 @@ lang: pt
 category: Observabilidade para Segurança
 ---
 
-Observabilidade para Segurança: Primeiro laboratório SRE + AppSec
+Observabilidade para Segurança: Primeiro laboratório SRE + AppSec – Métricas e Visualização
 ================================================================================
 
 Nos últimos meses eu venho estudando como aproximar SRE, observabilidade e segurança no contexto de desenvolvimento de forma realmente prática — não aquela segurança burocrática que só aparece em auditoria e controles internos, mas segurança que vive no ciclo de vida do sistema. Esse laboratório foi o meu “Dia 1” dessa jornada.
