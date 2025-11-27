@@ -46,6 +46,7 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
+    <br>
     <div class="section__actions">
       <a href="{% if lang == 'pt' %}{{ '/pt/projects/' | relative_url }}{% else %}{{ '/projects/' | relative_url }}{% endif %}" class="btn btn--ghost">
         {{ home.featured_projects.view_all_label }}

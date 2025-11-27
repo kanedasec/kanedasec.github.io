@@ -2,21 +2,6 @@ en:
   title: "Projects"
   subtitle: "Security tooling, experiments, and learning playgrounds."
   projects:
-    - id: zeta-hunter
-      title: "ZetaHunter – Bug Bounty Automation"
-      github: "https://github.com/kanedasec/ZetaHunter"
-      description: >
-        Orchestrates security tools and AI-assisted playbooks to automate parts
-        of bug bounty workflows. Focused on reproducible scans, diffing results,
-        and surfacing high-signal findings.
-      tags:
-        - AppSec
-        - Automation
-        - Bug Bounty
-      links:
-        - label: "Repository"
-          url: "https://github.com/kanedasec/ZetaHunter"
-
     - id: fp-gui
       title: "FP-GUI – False Positive Justification"
       github: "https://github.com/kanedasec/fp-gui"
@@ -27,37 +12,29 @@ en:
         - AppSec
         - Tooling
         - Desktop
-
-    - id: security-hub
-      title: "Security Hub – Chapter Metrics"
-      github: "https://github.com/kanedasec/security-hub"
+        - Python
+    
+    - id: sre-observability-Lab-1
+      title: "SRE Security Observability Lab 1"
+      github: "https://github.com/kanedasec/SRE-Security-Observability-Lab-1"
       description: >
-        Dashboard-style project to consolidate AppSec metrics, squad maturity
-        indicators, and mapping to frameworks like NIST CSF.
+        A hands-on experiment applying SRE concepts (SLI, SLO, latency,
+        error budgets) to security controls. A small instrumented Flask API
+        exposes Prometheus metrics for login reliability, failures, and latency,
+        with dashboards built in Grafana. Focused on transforming AppSec risks
+        into measurable signals.
       tags:
-        - Metrics
-        - DevSecOps
-        - Dashboards
+        - SRE
+        - AppSec
+        - Observability
+        - Prometheus
+        - Grafana
+
 
 pt:
   title: "Projetos"
   subtitle: "Ferramentas de segurança, experimentos e laboratórios de aprendizado."
   projects:
-    - id: zeta-hunter
-      title: "ZetaHunter – Automação para Bug Bounty"
-      github: "https://github.com/kanedasec/ZetaHunter"
-      description: >
-        Orquestra ferramentas de segurança e playbooks assistidos por IA para
-        automatizar partes do fluxo de bug bounty. Focado em scans reprodutíveis,
-        comparação de resultados e priorização de achados de alto impacto.
-      tags:
-        - AppSec
-        - Automação
-        - Bug Bounty
-      links:
-        - label: "Repositório"
-          url: "https://github.com/kanedasec/ZetaHunter"
-
     - id: fp-gui
       title: "FP-GUI – Justificativa de Falsos Positivos"
       github: "https://github.com/kanedasec/fp-gui"
@@ -69,14 +46,20 @@ pt:
         - AppSec
         - Ferramentas
         - Desktop
-
-    - id: security-hub
-      title: "Security Hub – Métricas de Chapter"
-      github: "https://github.com/kanedasec/security-hub"
+        - Python
+    
+    - id: sre-observability-Lab-1
+      title: "Lab 1 de Observabilidade SRE para Segurança"
+      github: "https://github.com/kanedasec/SRE-Security-Observability-Lab-1"
       description: >
-        Projeto de dashboard para consolidar métricas de AppSec, indicadores de
-        maturidade de squads e mapeamento para frameworks como o NIST CSF.
+        Experimento prático aplicando conceitos de SRE (SLI, SLO, latência,
+        error budget) aos controles de segurança. Uma pequena API Flask
+        instrumentada expõe métricas Prometheus sobre confiabilidade do login,
+        falhas e latência, com dashboards em Grafana. Focado em transformar
+        riscos de AppSec em sinais mensuráveis.
       tags:
-        - Métricas
-        - DevSecOps
-        - Dashboards
+        - SRE
+        - AppSec
+        - Observabilidade
+        - Prometheus
+        - Grafana
