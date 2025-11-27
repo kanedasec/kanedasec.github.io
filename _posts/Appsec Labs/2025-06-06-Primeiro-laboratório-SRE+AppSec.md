@@ -10,11 +10,13 @@ category: Observabilidade para Segurança
 Observabilidade para Segurança: Primeiro laboratório SRE + AppSec
 ================================================================================
 
-Nos últimos meses eu venho estudando como aproximar SRE, observabilidade e segurança de forma realmente prática — não aquela segurança burocrática que só aparece em auditoria, mas segurança que vive no ciclo de vida do sistema. Esse laboratório foi o meu “Dia 1” dessa jornada.
+Nos últimos meses eu venho estudando como aproximar SRE, observabilidade e segurança no contexto de desenvolvimento de forma realmente prática — não aquela segurança burocrática que só aparece em auditoria e controles internos, mas segurança que vive no ciclo de vida do sistema. Esse laboratório foi o meu “Dia 1” dessa jornada.
 
 A ideia é simples: pegar um risco de segurança bem básico (falhas de login) e transformar isso em **métrica, indicador e objetivo de confiabilidade**. Se SRE funciona monitorando disponibilidade, será que também funciona para AppSec? A resposta é sim — e muito melhor do que eu esperava.
 
 ## O laboratório
+
+<a href="https://github.com/kanedasec/SRE-Security-Observability-Lab-1">Lab 1 no Github</a>
 
 Eu comecei criando uma API Flask pequena, com três endpoints: `/healthz`, `/login` e `/metrics`.  
 O `/login` é “inseguro de propósito”: ele falha aleatoriamente, simulando tanto erros legítimos quanto possíveis ataques.
